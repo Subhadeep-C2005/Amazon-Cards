@@ -1,16 +1,30 @@
-# React + Vite
+E-Commerce Product Cards Display
+📌 Project Overview
+A beginner-friendly React application that dynamically displays a grid of e-commerce product cards, inspired by Amazon's "Blockbuster Deals" section. This project was built to practice core React concepts like component structuring, rendering data, and CSS styling in a JSX environment.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+*Component-Based UI: Built using reusable React components for the individual product cards.
 
-Currently, two official plugins are available:
+*Product Details: Each card displays the product name, key features (like DPI, connectivity, or compatibility), and pricing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*Dynamic Pricing Display: Includes styled price tags showing both the struck-through original price and the highlighted discounted price.
 
-## React Compiler
+*Responsive Layout: Designed to neatly align multiple items side-by-side using CSS flexbox/grid.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Technologies Used
+*React.js: For building the user interface.
 
-## Expanding the ESLint configuration
+*HTML5 & JSX: For structuring the webpage.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*CSS3: For styling the cards, hover effects, and layout.
+
+💡 What I Learned
+As my first React project, building this website helped me understand:
+
+*How to set up a basic React environment.
+
+*The difference between standard HTML and JSX.
+
+*How to pass data using props to make reusable card components.
+
+*How to apply custom CSS styling to specific React components.
